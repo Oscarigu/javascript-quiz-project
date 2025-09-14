@@ -15,9 +15,7 @@ class Quiz {
     }
     // 3. moveToNextQuestion()
     moveToNextQuestion() {
-        if (this.currentQuestionIndex < this.questions.length - 1) {
-            this.currentQuestionIndex++;
-        }
+        this.currentQuestionIndex++;
     }
     // 4. shuffleQuestions()
     shuffleQuestions() {
